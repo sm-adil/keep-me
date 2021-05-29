@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Keep Me 📄</title>
+    <meta
+      name="description"
+      content="Light-weight notes manager which runs directly inside your browser 🎉"
+    />
+    <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon" />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="./images/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="./images/favicon-16x16.png"
+    />
+    <link rel="manifest" href="./images/site.webmanifest" />
+    <link rel="stylesheet" href="./css/index.css" />
+  </head>
+  <body>
+    <main>
+      <section class="note-section">
+        <div role="textbox" contenteditable class="note-description"></div>
+
+        <div class="label-container"></div>
+
+        <div class="note-settings">
+          <button class="note-color">🎨</button>
+          <button class="note-label">🏷</button>
+          <button class="create-note">Save</button>
+        </div>
+      </section>
+
+      <p class="no-notes">Notes you add appear here 📝</p>
+      <section class="notes-holder"></section>
+    </main>
+    <script src="./js/index.js"></script>
+  </body>
+</html>
